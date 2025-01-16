@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aixtract"
+version = "1.0.0"
+description = "Utility to prepare files for AI analysis"
+authors = ["The Zealot"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "aixtract" }]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+[tool.poetry.scripts]
+aixtract = "aixtract.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
