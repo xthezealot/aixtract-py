@@ -5,6 +5,7 @@ description = "Utility to prepare files for AI analysis"
 authors = ["The Zealot"]
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/thezealot/aixtract-py"
 packages = [{ include = "aixtract" }]
 
 [tool.poetry.dependencies]
